@@ -22,6 +22,11 @@ const temperature = 41
 
 //console.log(`User power: ${power}`)  //Out of scope
 
-const balance = 1000
+// const balance = 800
 
-if(balance > 500) console.log("test");
+// if(balance < 500) console.log("test");
+// else if(balance < 750) console.log("balanace less than 750");
+// else if(balance < 900) console.log("balanace less than 900");
+// else console.log("Suff balance");
+
+
