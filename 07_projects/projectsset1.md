@@ -67,3 +67,20 @@ form.addEventListener('submit',function(e){
   // results.inerHTML = `${height}`
 })
 ```
+
+## project 3
+
+```javascript
+const clock = document.getElementById('clock')
+//const clock = document.querySelector('#clock')
+
+//Above both lines are same with diff syntax
+
+
+setInterval(function(){
+  let date = new Date();
+// console.log(date.toLocaleTimeString());
+clock.innerHTML = date.toLocaleTimeString();
+
+}, 1000)
+```
