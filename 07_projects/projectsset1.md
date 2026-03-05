@@ -71,21 +71,20 @@ form.addEventListener('submit',function(e){
 ## project 3
 
 ```javascript
-const clock = document.getElementById('clock')
+const clock = document.getElementById("clock");
 //const clock = document.querySelector('#clock')
 
 //Above both lines are same with diff syntax
 
-
-setInterval(function(){
+setInterval(function () {
   let date = new Date();
-// console.log(date.toLocaleTimeString());
-clock.innerHTML = date.toLocaleTimeString();
-
-}, 1000)
+  // console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
 ```
 
 ## project 3
+
 ```javscript
 let randomNumber = parseInt(Math.random() * 100 + 1);
 
